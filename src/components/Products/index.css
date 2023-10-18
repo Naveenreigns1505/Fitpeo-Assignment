@@ -1,0 +1,205 @@
+.productWrapper {
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+}
+
+.productTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.productHeading {
+  width: 70%;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.productFilter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchbar {
+  border: blue;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.searchIcon {
+  font-size: 24px;
+  margin: 0 5px;
+  color: grey;
+}
+
+.searchImgContainer {
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.searchInput {
+  font-size: 12px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdownList {
+  margin: 0;
+  padding: 0;
+}
+
+.selectList {
+  padding-right: 10px;
+  border: none;
+  font-size: 12px;
+  color: grey;
+}
+
+.productNameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.ProductImgContainer {
+  margin-right: 10px;
+}
+
+.productImg {
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.productName {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.productDesc {
+  font-size: 12px;
+  color: grey;
+}
+td {
+  color: grey;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+th {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+  border-bottom: 1px solid #ddd;
+}
+
+.th1 {
+  width: 70%;
+  padding-right: 20px;
+}
+
+.th3 {
+  padding: 0 20px;
+  text-align: center;
+}
+
+table td:nth-child(3) {
+  font-weight: 600;
+}
+.cus {
+  color: grey;
+  margin-left: 13px;
+  margin-top: -25px;
+}
+@media (max-width: 768px) {
+  .productHeading {
+    width: 30%;
+    font-size: 10px;
+    margin-left: 3px;
+  }
+
+  .searchbar {
+    width: 50%;
+  }
+  td {
+    font-size: 8px;
+  }
+
+  .searchIcon {
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .searchInput {
+    font-size: 10px;
+    width: 40px;
+  }
+
+  .productTable {
+    font-size: 12px;
+  }
+  .cus {
+    font-size: 10px;
+    margin-bottom: -20px;
+  }
+  .abs {
+    font-size: 12px;
+  }
+  .th1 {
+    width: 50%;
+    padding-right: 8px;
+    font-size: 10px;
+  }
+  .th2 {
+    font-size: 8px;
+    margin-left: -20px;
+  }
+  .th3 {
+    padding: 0 10px;
+    text-align: center;
+    font-size: 8px;
+  }
+  .th4 {
+    font-size: 6px;
+  }
+
+  .productImg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .productName {
+    font-size: 10px;
+  }
+
+  .productDesc {
+    font-size: 6px;
+  }
+
+  .selectList {
+    font-size: 8px;
+  }
+}

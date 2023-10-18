@@ -1,0 +1,164 @@
+.bg-containe {
+  background-color: #263043;
+  height: 100vh;
+  width: 12%;
+}
+.dash-container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-left: 10px;
+}
+.dash-head {
+  margin-left: 10px;
+}
+.arrow {
+  display: flex;
+  align-items: flex-end;
+}
+.right {
+  text-align: left;
+  margin-left: 190px;
+  margin-top: -30px;
+}
+
+@media (max-width: 768px) {
+  .bg-containe {
+    width: 20%;
+  }
+
+  .dash-container {
+    margin-left: 1px;
+  }
+
+  .dash-head {
+    font-size: 7px;
+    margin-left: 2px;
+  }
+}
+
+#sidebar {
+  grid-area: sidebar;
+  height: 100%;
+  background-color: #1d2634;
+  overflow-y: auto;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.sidebar-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px 0px 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar-title > span {
+  display: none;
+}
+
+.sidebar-brand {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sidebar-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidebar-list-item {
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+}
+
+.sidebar-list-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.sidebar-list-item > a {
+  text-decoration: none;
+  color: #9e9ea4;
+}
+.sidebarBottom {
+  bottom: 0;
+  background-color: #263043;
+  height: 300px;
+}
+.profileImg {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.profileName {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.profiledetails {
+  display: flex;
+  flex-direction: column;
+}
+.profilePosition {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  font-size: 10px;
+  color: antiquewhite;
+}
+.arrow2 {
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: 190px;
+}
+
+.listIcon {
+  margin-right: 5px;
+}
+.itemName {
+  display: flex;
+  align-items: center;
+}
+.dropdown {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.sidebar-responsive {
+  display: inline !important;
+  position: absolute;
+
+  z-index: 12 !important;
+}
+.dropButton {
+  width: 100%;
+  display: flex !important;
+  background-color: blue !important;
+  color: whitesmoke !important;
+  border: none !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropButton.active,
+.dropButton:focus {
+  background-color: blueviolet !important;
+  color: white !important;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
